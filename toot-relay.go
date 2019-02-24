@@ -89,7 +89,7 @@ func handler(writer http.ResponseWriter, request *http.Request) {
 	}
 
 	notification.Payload = payload
-	notification.Topic = "cx.c3.toot"
+	notification.Topic = "com.keyboardfloofs.amarok"
 
 	switch request.Header.Get("Content-Encoding") {
 		case "aesgcm":
